@@ -5,18 +5,16 @@ This project proposes a novel methodology for AI-enhanced image-to-audio encrypt
 > A. Chennupati, B. Prahas, B. A. Ghali and T. V. Nidhin Prabhakar, "AI-Driven Image-to-Audio Encryption with Data Hiding," 2024 15th International Conference on Computing Communication and Networking Technologies (ICCCNT), Kamand, India, 2024, pp. 1-6, doi: 10.1109/ICCCNT61001.2024.10725794.
 
 ## Foundational Framework
+![image](https://github.com/user-attachments/assets/02314b12-8027-4730-99aa-6d7cf3135593)
 
-The proposed methodology begins with steganography, concealing the input image (secret image) within another image (cover image) to create a steganographic image. This process aims to make the steganographic image indistinguishable from the original cover image. Subsequently, the steganographic image undergoes an image-to-audio encryption process, where it is converted into an audio file for secure transmission. 
+The proposed methodology begins with steganography, concealing the input image (secret image) within another image (cover image) to create a steganographic image. This process aims to make the steganographic i
+image indistinguishable from the original cover image. Subsequently, the steganographic image undergoes an image-to-audio encryption process, where it is converted into an audio file for secure transmission. 
 
 ## Subsystems Overview
 
-![image](https://github.com/user-attachments/assets/02314b12-8027-4730-99aa-6d7cf3135593)
-
-
-### 1. Image-in-Image Steganography
-
 ![image](https://github.com/user-attachments/assets/9480c0cb-3331-43ec-9b6a-173c62533c34)
 
+### 1. Image-in-Image Steganography
 
 The first subsystem consists of two networks: Hide-Net and Reveal-Net. 
 - **Hide-Net:** An Unet-based Generator, utilized for concealing information within images through steganography. It employs a U-shaped convolutional neural network architecture with skip connections to preserve high-resolution details during up-sampling.
