@@ -10,7 +10,13 @@ The proposed methodology begins with steganography, concealing the input image (
 
 ## Subsystems Overview
 
+![image](https://github.com/user-attachments/assets/02314b12-8027-4730-99aa-6d7cf3135593)
+
+
 ### 1. Image-in-Image Steganography
+
+![image](https://github.com/user-attachments/assets/9480c0cb-3331-43ec-9b6a-173c62533c34)
+
 
 The first subsystem consists of two networks: Hide-Net and Reveal-Net. 
 - **Hide-Net:** An Unet-based Generator, utilized for concealing information within images through steganography. It employs a U-shaped convolutional neural network architecture with skip connections to preserve high-resolution details during up-sampling.
