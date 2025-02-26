@@ -1,7 +1,8 @@
 # Stegano-AI-2-Audio
 
 
-This project proposes a novel methodology for AI-enhanced image-to-audio encryption, combining steganography and encryption techniques. The foundational framework comprises two subsystems: image-in-image steganography and image-to-audio encryption and decryption.
+This project proposes a novel methodology for AI-enhanced image-to-audio encryption, combining steganography and encryption techniques. The foundational framework comprises two subsystems: image-in-image steganography and image-to-audio encryption and decryption. This code is an implementation of the paper:
+> A. Chennupati, B. Prahas, B. A. Ghali and T. V. Nidhin Prabhakar, "AI-Driven Image-to-Audio Encryption with Data Hiding," 2024 15th International Conference on Computing Communication and Networking Technologies (ICCCNT), Kamand, India, 2024, pp. 1-6, doi: 10.1109/ICCCNT61001.2024.10725794.
 
 ## Foundational Framework
 
